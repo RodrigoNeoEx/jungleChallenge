@@ -1,0 +1,33 @@
+@import url("http://fonts.cdnfonts.com/css/inter");
+.playBtn {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.playBtn .playBtn__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  background-color: #00A870;
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+}
+.playBtn .playBtn__btn svg {
+  position: relative;
+  left: 2px;
+}
+.playBtn .playBtn__message {
+  margin-left: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #ffffff;
+}/*# sourceMappingURL=playBtn.css.map */

@@ -1,12 +1,16 @@
 import React from "react";
+import { messages } from "./messages";
+import "./style/playBtn.css"
+import { FaPlay } from "react-icons/fa";
 
 const PlayBtn = () => {
   return (
-    <React.Fragment>
-      <button type="button">
-        play
+    <div className="playBtn">
+      <button type="button" className="playBtn__btn">
+        <FaPlay />
       </button>
-    </React.Fragment>
+      <span className="playBtn__message">{messages.playBtn}</span>
+    </div>
   )
 }
 
