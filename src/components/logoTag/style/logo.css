@@ -1,0 +1,16 @@
+.logo {
+  width: 48px;
+  height: 64px;
+  background-color: #00C88C;
+  display: flex;
+  position: absolute;
+  left: 20px;
+  border-radius: 0 0 32px 32px;
+  align-items: end;
+  justify-content: center;
+}
+.logo .logo__img {
+  height: 22px;
+  position: relative;
+  bottom: 10px;
+}/*# sourceMappingURL=logo.css.map */

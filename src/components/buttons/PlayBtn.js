@@ -1,6 +1,6 @@
 import React from "react";
 import { messages } from "./messages";
-import "./style/playBtn.css"
+import "./style/buttons.css"
 import { FaPlay } from "react-icons/fa";
 
 const PlayBtn = () => {

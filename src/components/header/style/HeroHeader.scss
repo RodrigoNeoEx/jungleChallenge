@@ -1,0 +1,26 @@
+.heroHeader {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  .heroHeader__nav {
+    display: flex;
+    width: 40vw;
+    color: #ffffff;
+    position: relative;
+    right: 20px;
+    align-items: center;
+    .navLink {
+      margin-right: 5vh;
+    }
+  }
+  .heroHeader__signIn {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 15vh;
+    .signIn__link {
+      margin-left: 5vh;
+    }
+  }
+}

@@ -17,7 +17,7 @@
   }
   .heroSection__main {
     display: grid;
-    grid-template-rows: 15vh 64vh 10vh;
+    grid-template-rows: 10vh 73vh 6vh;
     grid-template-columns: 53vw 47vw;
     .heroSection__article {
       display: flex;
@@ -25,7 +25,7 @@
       grid-column: 1;
       grid-row: 2;
       justify-content: center;
-      padding-left: 20vh;
+      padding: 0 4vh 0 20vh;
       h1 {
         font-family: 'Inter', sans-serif;
         font-style: normal;
