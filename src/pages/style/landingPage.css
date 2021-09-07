@@ -1,4 +1,12 @@
 .main__container {
   display: grid;
   grid-template-rows: 728px 2866px 540px;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+input {
+  cursor: inherit;
 }/*# sourceMappingURL=landingPage.css.map */

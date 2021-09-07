@@ -17,9 +17,9 @@ const NavFooter = () => {
         <a>{messages.terms}</a>
       </nav>
       <nav className="navFooter__midias">
-        <a><img src={facebook} alt="logo facebook"/></a>
-        <a><img src={twiter} alt="logo twiter"/></a>
-        <a><img src={insta} alt="logo instagram"/></a>
+        <a><img src={facebook} alt="logo facebook" className="midias"/></a>
+        <a><img src={twiter} alt="logo twiter" className="midias"/></a>
+        <a><img src={insta} alt="logo instagram" className="midias"/></a>
       </nav>
     </footer>
   )

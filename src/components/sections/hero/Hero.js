@@ -10,30 +10,21 @@ import "./style/heroSection.css"
 
 const Hero = () => {
   return (
-    <React.Fragment>
-      <section className="heroSection">
-        <img className="heroSection__bg"/>
-        <main className="heroSection__main">
-
-          <Header/>
-
-          <article className="heroSection__article">
-            <h1>{messages.head}</h1>
-            <p>{messages.description}</p>
-            <PlayBtn/>
-          </article>
-
-          <aside className="heroSection__aside">
-            <img src={imageHeader} alt="App Example" className="heroSection__aside__img"/>
-          </aside>
-
-          <HeroFooter/>
-        </main>
-
-      </section>
-
-    </React.Fragment>
-
+    <section className="heroSection">
+      <img className="heroSection__bg"/>
+      <main className="heroSection__main">
+        <Header/>
+        <article className="heroSection__article">
+          <h1>{messages.head}</h1>
+          <p>{messages.description}</p>
+          <PlayBtn/>
+        </article>
+        <aside className="heroSection__aside">
+          <img src={imageHeader} alt="App Example" className="heroSection__aside__img"/>
+        </aside>
+        <HeroFooter/>
+      </main>
+    </section>
   )
 }
 

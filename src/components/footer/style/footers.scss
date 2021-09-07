@@ -51,7 +51,7 @@
     justify-content: space-evenly;
     width: 500px;
     position: relative;
-    left: 35px;
+    left: 60px;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
@@ -59,11 +59,21 @@
     line-height: 20px;
     text-align: center;
     color: #3D3D3D;
+    :hover {
+      text-decoration: underline;
+    }
   }
   .navFooter__midias {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    width: 200px;
+    :hover {
+      background-color: #d7cee2;
+      border-radius: 50%;
+      color: #DFDFDF;
+      height: 47px;
+    }
   }
 }
 

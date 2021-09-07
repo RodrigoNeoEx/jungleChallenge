@@ -13,6 +13,9 @@
   right: 20px;
   align-items: center;
 }
+.heroHeader .heroHeader__nav :hover {
+  text-decoration: underline;
+}
 .heroHeader .heroHeader__nav .navLink {
   margin-right: 5vh;
 }
@@ -25,4 +28,7 @@
 }
 .heroHeader .heroHeader__signIn .signIn__link {
   margin-left: 5vh;
+}
+.heroHeader .heroHeader__signIn .signIn__link:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=HeroHeader.css.map */

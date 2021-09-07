@@ -8,9 +8,12 @@ import "./style/lastInfor.css"
 const LastInfo = () => {
   return (
     <section className="lastInfo">
-      <h2></h2>
-      <p></p>
+      <div className="lastInfo__text">
+        <h2 className="text__title">{messages.becomeNanny}</h2>
+        <p className="text__description">{messages.lessThan}</p>
+      </div>
       <CreateNanny />
+      <a className="lastInfo__link">{messages.link}</a>
       <NavFooter />
       <GeneralFooter />
     </section>

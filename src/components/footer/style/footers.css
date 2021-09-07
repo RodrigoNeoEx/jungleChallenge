@@ -52,7 +52,7 @@
   justify-content: space-evenly;
   width: 500px;
   position: relative;
-  left: 35px;
+  left: 60px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -61,10 +61,20 @@
   text-align: center;
   color: #3D3D3D;
 }
+.navFooter .navFooter__links :hover {
+  text-decoration: underline;
+}
 .navFooter .navFooter__midias {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  width: 200px;
+}
+.navFooter .navFooter__midias :hover {
+  background-color: #d7cee2;
+  border-radius: 50%;
+  color: #DFDFDF;
+  height: 47px;
 }
 
 .generalFooter .generalFooter__text {

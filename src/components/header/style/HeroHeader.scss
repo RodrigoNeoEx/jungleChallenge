@@ -12,6 +12,9 @@
     position: relative;
     right: 20px;
     align-items: center;
+    :hover {
+      text-decoration: underline;
+    }
     .navLink {
       margin-right: 5vh;
     }
@@ -24,6 +27,9 @@
     left: 13vh;
     .signIn__link {
       margin-left: 5vh;
+    }
+    .signIn__link:hover {
+      text-decoration: underline;
     }
   }
 }
