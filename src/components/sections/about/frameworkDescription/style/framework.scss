@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/inter');
+
 .frameworkInfo {
   display: flex;
   flex-direction: column;
@@ -11,8 +13,8 @@
     justify-content: center;
     margin-bottom: 64px;
     width: 784px;
+    font-family: "Inter", sans-serif;
     .article__title {
-      font-family: Inter;
       font-style: normal;
       font-weight: 500;
       font-size: 28px;
@@ -23,7 +25,6 @@
       color: #3D3D3D;
     }
     .article__description {
-      font-family: Inter;
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
@@ -32,7 +33,6 @@
       color: #3D3D3D;
     }
     .article__link {
-      font-family: Inter;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;

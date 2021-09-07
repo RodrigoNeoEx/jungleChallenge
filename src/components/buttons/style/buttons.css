@@ -50,6 +50,7 @@
 
 .createNanny {
   background-color: #5E20A4;
+  font-family: "Inter", sans-serif;
   border-radius: 4px;
   display: flex;
   width: 304px;
@@ -67,7 +68,6 @@
   color: #FFFFFF;
 }
 .createNanny .createNanny__text .text__major {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -75,7 +75,6 @@
   margin: 0;
 }
 .createNanny .createNanny__text .text__minor {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
