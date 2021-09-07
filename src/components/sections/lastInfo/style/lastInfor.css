@@ -1,2 +1,7 @@
-
-/*# sourceMappingURL=lastInfor.css.map *//*# sourceMappingURL=lastInfor.css.map */
+.lastInfo {
+  grid-row: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=lastInfor.css.map */
