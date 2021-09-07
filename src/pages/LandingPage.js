@@ -1,11 +1,14 @@
 import React from "react";
 import Hero from "../components/sections/hero/Hero"
+import About from "../components/sections/about/About"
+import './style/landingPage.css'
 
 const LandingPage = () => {
   return (
-    <React.Fragment>
+    <main className="main__container">
       <Hero/>
-    </React.Fragment>
+      <About />
+    </main>
   )
 }
 
