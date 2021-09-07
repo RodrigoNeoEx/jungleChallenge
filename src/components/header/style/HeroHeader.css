@@ -1,4 +1,6 @@
+@import url("http://fonts.cdnfonts.com/css/inter");
 .heroHeader {
+  font-family: "Inter", sans-serif;
   display: flex;
   justify-content: space-around;
   width: 100vw;
@@ -19,7 +21,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  left: 15vh;
+  left: 13vh;
 }
 .heroHeader .heroHeader__signIn .signIn__link {
   margin-left: 5vh;

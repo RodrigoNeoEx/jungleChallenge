@@ -27,11 +27,11 @@ const Hero = () => {
             <img src={imageHeader} alt="App Example" className="heroSection__aside__img"/>
           </aside>
 
+          <HeroFooter/>
         </main>
 
       </section>
 
-      <HeroFooter/>
     </React.Fragment>
 
   )
