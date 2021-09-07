@@ -1,0 +1,44 @@
+.shareDescription {
+  display: grid;
+  grid-template-rows: 632px 322px;
+}
+.shareDescription .shareDescription__main {
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+}
+.shareDescription .shareDescription__main .main__article {
+  display: flex;
+  flex-direction: column;
+  width: 444px;
+  position: relative;
+  left: 228px;
+}
+.shareDescription .shareDescription__main .main__article .article__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  color: #3D3D3D;
+  width: 324px;
+}
+.shareDescription .shareDescription__main .main__article .article__description {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4A4A4A;
+}
+.shareDescription .shareDescription__main .main__img {
+  position: relative;
+  width: 584px;
+  height: 392px;
+  left: 328px;
+}
+.shareDescription .shareDescription__register {
+  grid-row: 2;
+  align-items: center;
+  justify-self: center;
+}/*# sourceMappingURL=shareDescription.css.map */
