@@ -21,6 +21,7 @@
   left: 2px;
 }
 .playBtn .playBtn__message {
+  cursor: pointer;
   margin-left: 10px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -45,4 +46,39 @@
   font-weight: 500;
   padding: 0 4vh;
   align-self: center;
+}
+
+.createNanny {
+  background-color: #5E20A4;
+  border-radius: 4px;
+  display: flex;
+  width: 304px;
+  height: 68px;
+  justify-content: space-around;
+  align-items: center;
+}
+.createNanny .createNanny__pic {
+  width: 30px;
+  height: 30px;
+}
+.createNanny .createNanny__text {
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+.createNanny .createNanny__text .text__major {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}
+.createNanny .createNanny__text .text__minor {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
 }/*# sourceMappingURL=buttons.css.map */

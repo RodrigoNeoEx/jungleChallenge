@@ -1,2 +1,38 @@
-
-/*# sourceMappingURL=lastInfor.css.map *//*# sourceMappingURL=lastInfor.css.map */
+.lastInfo {
+  grid-row: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.lastInfo .lastInfo__text {
+  text-align: center;
+  color: #3D3D3D;
+  font-style: normal;
+  font-family: Inter;
+  margin-top: 50px;
+}
+.lastInfo .lastInfo__text .text__title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+}
+.lastInfo .lastInfo__text .text__description {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.lastInfo .lastInfo__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #5E20A4;
+}/*# sourceMappingURL=lastInfor.css.map */
