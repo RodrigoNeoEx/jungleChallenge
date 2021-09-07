@@ -1,0 +1,8 @@
+.divider {
+  display: flex;
+  justify-content: center;
+  .divider__line {
+    width: 784px;
+    border-bottom: 2px solid #DFDFDF;
+  }
+}

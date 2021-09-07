@@ -1,12 +1,16 @@
 import React from "react";
+import Divider from "../../../../divider/divider";
 import InputShare from "../../../../inputShare/inputShare";
 import { messages } from "../../messages";
+import "./style/align.css"
 
-const Register = () => {
+const Register = ({ registerClass }) => {
+
   return (
-    <section>
-      <h1>{messages.inputTitle}</h1>
-      <p>{messages.inputDescription}</p>
+    <section className={`${registerClass} input`}>
+      <Divider />
+      <h3 className="input__title">{messages.inputTitle}</h3>
+      <p className="input__description">{messages.inputDescription}</p>
       <InputShare />
     </section>
   )
