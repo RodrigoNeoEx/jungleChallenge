@@ -1,0 +1,27 @@
+.inputShare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 74px 0 64px 0;
+  .inputShare__input {
+    height: 48px;
+    width: 232px;
+    margin-right: 12px;
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3D3D3D;
+  }
+  .basicBtn {
+    height: 48px;
+  }
+}

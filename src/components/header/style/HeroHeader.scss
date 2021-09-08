@@ -1,0 +1,37 @@
+@import url('http://fonts.cdnfonts.com/css/inter');
+
+.heroHeader {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  .heroHeader__nav {
+    display: flex;
+    width: 40vw;
+    color: #ffffff;
+    position: relative;
+    right: 20px;
+    align-items: center;
+    bottom: 15px;
+    :hover {
+      text-decoration: underline;
+    }
+    .navLink {
+      margin-right: 5vh;
+    }
+  }
+  .heroHeader__signIn {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 13vh;
+    bottom: 15px;
+    .signIn__link {
+      margin-left: 5vh;
+    }
+    .signIn__link:hover {
+      text-decoration: underline;
+    }
+  }
+}

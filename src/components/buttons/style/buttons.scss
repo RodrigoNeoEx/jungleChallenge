@@ -1,0 +1,83 @@
+@import url('http://fonts.cdnfonts.com/css/inter');
+
+.playBtn {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  .playBtn__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background-color: #00A870;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    svg {
+      position: relative;
+      left: 2px;
+    }
+  }
+  .playBtn__message {
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #ffffff;
+  }
+}
+
+.basicBtn {
+  background-color: #00A870;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  height: 44px;
+  border-radius: 4px;
+  border: none;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  padding: 0 4vh;
+  align-self: center;
+}
+
+.createNanny {
+  background-color: #5E20A4;
+  font-family: "Inter", sans-serif;
+  border-radius: 4px;
+  display: flex;
+  width: 304px;
+  height: 68px;
+  justify-content: space-around;
+  align-items: center;
+  .createNanny__pic {
+    width: 30px;
+    height: 30px;
+  }
+  .createNanny__text {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    .text__major {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 28px;
+      margin: 0;
+    }
+    .text__minor {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      margin: 0;
+    }
+  }
+}

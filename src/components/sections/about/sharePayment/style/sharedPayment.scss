@@ -1,0 +1,41 @@
+.sharedPayment {
+  height: 528px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .sharedPayment__img {
+    width: 456px;
+    height: 336px;
+  }
+  .sharedPayment__article {
+    width: 484px;
+    margin-left: 100px;
+    align-self: flex-start;
+    margin-top: 70px;
+    font-family: "Inter", sans-serif;
+    color: #3D3D3D;
+    .article__title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 32px;
+      display: flex;
+      align-items: center;
+    }
+    .article__description {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 28px;
+    }
+    .article__link {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-decoration-line: underline;
+      color: #5E20A4;
+    }
+  }
+}

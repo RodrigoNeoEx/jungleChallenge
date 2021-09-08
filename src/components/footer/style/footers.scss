@@ -1,0 +1,90 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('http://fonts.cdnfonts.com/css/inter');
+
+.heroFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  grid-row: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-bottom: 1px #DFDFDF solid;
+  .heroFooter__avatar {
+  width: 56px;
+  height: 56px;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.2));
+  }
+  .heroFooter__link {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #5E20A4;
+    margin-left: 1.5vh;
+  }
+  .heroFooter__schedule {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 1vh;
+  }
+}
+
+.navFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .navFooter__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+    position: relative;
+    left: 170px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #3D3D3D;
+    :hover {
+      text-decoration: underline;
+    }
+  }
+  .navFooter__midias {
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    :hover {
+      background-color: #d7cee2;
+      border-radius: 50%;
+      color: #DFDFDF;
+      height: 47px;
+    }
+  }
+}
+
+.generalFooter {
+  .generalFooter__text {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #3D3D3D;
+  }
+}
