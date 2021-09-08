@@ -6,3 +6,11 @@
     border-bottom: 2px solid #DFDFDF;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .divider {
+    .divider__line {
+      width: 328px;
+    }
+  }
+}

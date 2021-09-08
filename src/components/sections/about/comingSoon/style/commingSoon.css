@@ -35,4 +35,24 @@
   line-height: 28px;
   text-align: center;
   color: #3D3D3D;
+}
+
+@media screen and (max-width: 360px) {
+  .commingSoon {
+    height: 524px;
+  }
+  .commingSoon .commingSoon__pic {
+    width: 216px;
+    height: 96px;
+  }
+  .commingSoon .commingSoon__article {
+    width: 328px;
+  }
+  .commingSoon .commingSoon__article .article__title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .commingSoon .commingSoon__article .article__description {
+    color: #3D3D3D;
+  }
 }/*# sourceMappingURL=commingSoon.css.map */

@@ -11,10 +11,10 @@ const NavFooter = () => {
     <footer className="navFooter">
       <img src={hapu} alt="logo hapu" className="navFooter__logo"/>
       <nav className="navFooter__links">
-        <a>{messages.shareNany}</a>
-        <a>{messages.ourStory}</a>
-        <a>{messages.blog}</a>
-        <a>{messages.terms}</a>
+        <a className="links__text">{messages.shareNany}</a>
+        <a className="links__text">{messages.ourStory}</a>
+        <a className="links__text">{messages.blog}</a>
+        <a className="links__text">{messages.terms}</a>
       </nav>
       <nav className="navFooter__midias">
         <a><img src={facebook} alt="logo facebook" className="midias"/></a>

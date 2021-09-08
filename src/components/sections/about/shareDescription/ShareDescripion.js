@@ -3,7 +3,6 @@ import Register from "./register/Register";
 import { messages } from "../messages";
 import ShareHome from "../../../../images/shareHome.png"
 import "./style/shareDescription.css"
-import Divider from "../../../divider/divider";
 
 const ShareDescripion = () => {
   return (
@@ -18,6 +17,7 @@ const ShareDescripion = () => {
               {messages.shareHomeDescription2}
             </span>
           </p>
+        <a className="article__link">{messages.ready}</a>
         </article>
         <img src={ShareHome} alt="costs example" className="main__img"/>
       </main>

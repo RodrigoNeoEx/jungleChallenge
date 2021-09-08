@@ -17,4 +17,5 @@ export const messages = {
   registerSend: "Send",
   inputName: "Your name",
   inputMail: "Your email",
+  ready: "Ready to get started?",
 }
