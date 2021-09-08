@@ -39,4 +39,39 @@
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #5E20A4;
+}
+
+@media screen and (max-width: 360px) {
+  .sharedPayment {
+    height: 746px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sharedPayment .sharedPayment__img {
+    width: 312px;
+    height: 230px;
+  }
+  .sharedPayment .sharedPayment__article {
+    width: 328px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    align-self: unset;
+  }
+  .sharedPayment .sharedPayment__article .article__title {
+    width: 226px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .sharedPayment .sharedPayment__article .article__description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .sharedPayment .sharedPayment__article .article__link {
+    font-family: "Inter", sans-serif;
+  }
 }/*# sourceMappingURL=sharedPayment.css.map */

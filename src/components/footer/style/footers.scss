@@ -88,3 +88,77 @@
     color: #3D3D3D;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .heroFooter {
+    flex-direction: column;
+    width: 360px;
+    justify-content: space-around;
+    margin-top: 0;
+    .heroFooter__link {
+      font-size: 14px;
+      line-height: 20px;
+      margin-left: 0;
+      width: 212px;
+      text-align: center;
+    }
+    .heroFooter__schedule {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      margin-left: 1vh;
+    }
+  }
+
+  .navFooter {
+    display: flex;
+    width: 217px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    .navFooter__links {
+      display: flex;
+      align-items: unset;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 217px;
+      position: unset;
+      left: 0;
+      font-size: 14px;
+      line-height: 30px;
+      text-align: center;
+
+      margin-top: 20px;
+      .links__text {
+        margin-right: 10px;
+      }
+    }
+    .navFooter__logo {
+      width: 64px;
+      height: 24px;
+      align-self: center;
+    }
+    .navFooter__midias {
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+  }
+
+  .generalFooter {
+    .generalFooter__text {
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: right;
+      color: #3D3D3D;
+    }
+  }
+
+}
