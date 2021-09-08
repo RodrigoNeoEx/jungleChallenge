@@ -1,7 +1,7 @@
 export const messages = {
   shareHomeTitle: "Share your home, nanny and costs",
   shareHomeDescription1: "You have a fantastic home, a fantastic nanny and wouldn’t cutting your costs in half be, well, fantastic?! If only it was easy to connect with other parents to share your costs? Well now it is, with Hapu.",
-  shareHomeDescriptionLink: "Hapu means tribe",
+  shareHomeDescriptionLink: " Hapu means tribe ",
   shareHomeDescription2: "and it’s our foundational 3 tribal principles that empowers you to create and manage your own tribe. A tribe that together has the power to create new affordable solutions in childcare that work for you and your community.",
   getStarted: "Ready to get started",
   inputTitle: "Are you a parent without a nanny and looking to share?",
@@ -17,4 +17,5 @@ export const messages = {
   registerSend: "Send",
   inputName: "Your name",
   inputMail: "Your email",
+  ready: "Ready to get started?",
 }

@@ -33,4 +33,28 @@
 }
 .heroHeader .heroHeader__signIn .signIn__link:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 360px) {
+  .heroHeader {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+  }
+  .heroHeader .heroHeader__nav {
+    display: none;
+  }
+  .heroHeader .heroHeader__signIn {
+    display: unset;
+    align-items: unset;
+    position: unset;
+    margin: 10px 0 0 65px;
+    left: 0;
+    bottom: 0;
+    position: relative;
+  }
+  .heroHeader .heroHeader__signIn .signIn__link {
+    display: none;
+  }
 }/*# sourceMappingURL=HeroHeader.css.map */

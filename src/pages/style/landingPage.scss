@@ -1,12 +1,20 @@
-.main__container {
-  display: grid;
-  grid-template-rows: 728px 2866px 540px;
-}
-
 button, a {
   cursor: pointer;
 }
 
 input {
   cursor: inherit;
+}
+
+.main__container {
+  display: grid;
+  grid-template-rows: 728px 2866px 540px;
+}
+
+
+@media screen and (max-width: 360px) {
+  .main__container {
+    grid-template-rows: 756px 3034px 574px;
+    grid-template-columns: 100vw;
+  }
 }

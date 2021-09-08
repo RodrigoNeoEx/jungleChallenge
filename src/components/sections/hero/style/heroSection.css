@@ -62,4 +62,40 @@
   position: absolute;
   left: 896px;
   top: 170px;
+}
+
+@media screen and (max-width: 360px) {
+  .heroSection {
+    width: 360px;
+    height: 540px;
+  }
+  .heroSection .heroSection__bg {
+    background: url("../../../../images/Imagemobile.png");
+    height: 540px;
+  }
+  .heroSection .heroSection__main {
+    display: grid;
+    grid-template-rows: 40px 500px 216px;
+    grid-template-columns: 100vw;
+  }
+  .heroSection .heroSection__main .heroSection__article {
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .heroSection .heroSection__main .heroSection__article h1 {
+    font-size: 28px;
+    line-height: 32px;
+    width: 272px;
+    align-self: center;
+  }
+  .heroSection .heroSection__main .heroSection__article p {
+    width: 328px;
+    font-size: 16px;
+    line-height: 28px;
+    align-self: center;
+  }
+  .heroSection .heroSection__main .heroSection__aside {
+    display: none;
+  }
 }/*# sourceMappingURL=heroSection.css.map */
