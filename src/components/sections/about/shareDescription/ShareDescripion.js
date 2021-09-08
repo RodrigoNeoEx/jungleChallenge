@@ -13,7 +13,7 @@ const ShareDescripion = () => {
           <p className="article__description">
             <span>
               {messages.shareHomeDescription1}
-            <a>{messages.shareHomeDescriptionLink}</a>
+            <a className="description__link">{messages.shareHomeDescriptionLink}</a>
               {messages.shareHomeDescription2}
             </span>
           </p>

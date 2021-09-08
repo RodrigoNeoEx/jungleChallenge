@@ -30,6 +30,10 @@
   line-height: 28px;
   color: #4A4A4A;
 }
+.shareDescription .shareDescription__main .main__article .article__description .description__link {
+  color: #5E20A4;
+  text-decoration: underline;
+}
 .shareDescription .shareDescription__main .article__link {
   color: #5E20A4;
   text-decoration: underline;

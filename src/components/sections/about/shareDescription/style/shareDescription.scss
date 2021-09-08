@@ -27,6 +27,10 @@
         font-size: 16px;
         line-height: 28px;
         color: #4A4A4A;
+        .description__link {
+          color: #5E20A4;
+          text-decoration: underline;
+        }
       }
     }
     .article__link {
