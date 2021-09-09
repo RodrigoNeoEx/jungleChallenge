@@ -29,8 +29,7 @@ Utilize [http://localhost:3000](http://localhost:3000) para visualizar seu desen
 
 <hr/>
 
-## 
-Skills used during development
+## Skills used during development
 
 - Dynamic Components
 - `React Icons` for customizing and creating certain components
