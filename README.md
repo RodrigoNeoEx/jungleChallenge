@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Jungle Devs - React Challenge #001
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Project proposed as a technical challenge for [Jungle Devs](https://www.jungledevs.com/)
 
-## Available Scripts
+<hr/>
 
-In the project directory, you can run:
+## Scripts required to install and use the App
+
+### `npm install`
+
+Install all used dependencies
+
+Dependencies/libs used:
+
+- SASS
+- React Icons
+- Axios
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Starts the App in development environment.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Utilize [http://localhost:3000](http://localhost:3000) para visualizar seu desenvolvimento.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## If App crash cause of dep updates, use .env with the following environment variable
 
-### `npm run build`
+### `SKIP_PREFLIGHT_CHECK=true`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<hr/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 
+Skills used during development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Dynamic Components
+- `React Icons` for customizing and creating certain components
+- `BEM CSS Pattern `
+- `SASS` / `SCSS`
+- `JavaScript ES6`
 
-### `npm run eject`
+<hr/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Description
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Challenge goal**: The purpose of this challenge is to give a general idea of how React works and how you can use it to create simple reactive applications. You’ll be implementing a simplified version of Hapu’s ‘Become a Nanny Share Host’ view. The concepts that you’re gonna apply are:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- JSX;
+- Components, props and state;
+- Lifecycle Methods;
+- Responsive design with CSS media-queries;
+- API calls;
+- Error handling;
+- Loading states;
+- SEO & accessibility;
+- A/B tests;
+- Production builds.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Target level**: This is an all around challenge that cover both juniors and experience devs based on the depth of how the concepts were applied.
 
-## Learn More
+## Resources
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Design**: [Figma](https://www.figma.com/file/iBxoiuoSXy3SiOAnwXo2Np/Frontend-%E2%80%93-Challenge-1)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acceptance criteria
 
-### Code Splitting
+- Clear instructions on how to run the application in development mode
+- Clear instructions on how to create production builds
+- Logos should be exported in SVG
+- Implement the mobile version using CSS Media Queries
+- Hero section should have an A/B test, persistent for the user, that will either display the design version or:
+  - Title: Create the childcare you need at a price you can afford
+  - Description: Connect with other local families to share a nanny from as low as $10.00/hr each. Create your family profile today to get started.
+- Newsletter integration to be done using the following endpoint:
+  - POST https://api.jungledevs.com/api/v1/challenge-newsletter/ with body:
+  ```json
+  {
+    "name": "NAME",
+    "email": "EMAIL"
+  }
+  ```
+- Proper HTML structure for good SEO and accessibility
+- Proper loading and error handling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<hr/>
 
-### Analyzing the Bundle Size
+# Deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### 
+Deployed through the [Vercel](https://vercel.com/) platform. 
+#### Deploy Link: <a href="https://jungle-challenge-pi.vercel.app/">jungle-challenge</a>
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<hr/>
